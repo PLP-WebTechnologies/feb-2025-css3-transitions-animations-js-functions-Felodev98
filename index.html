@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations & Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Fun!</h1>
+
+        <button id="animatedButton">Hover Me & Click!</button>
+
+        <div id="preferencePanel">
+            <h2>User Preference</h2>
+            <label for="animationChoice">Choose Animation:</label>
+            <select id="animationChoice">
+                <option value="slide">Slide In</option>
+                <option value="fade">Fade In</option>
+            </select>
+            <button id="savePreference">Save Preference</button>
+        </div>
+
+        <div id="animatedBox" class="hidden">This will animate!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
